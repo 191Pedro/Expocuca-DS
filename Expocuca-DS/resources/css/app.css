@@ -7,19 +7,14 @@
 @source '../**/*.js';
 
 @theme {
-    --poppins: "Poppins";
-    --color-bg-dark: hsl(258 100% 5%);
+    --font-poppins: "Poppins";
+    --color-bg-dark: hsl(233, 36%, 9%);
     --color-bg: hsl(260 100% 9%);
     --color-bg-light: hsl(259 84% 13%);
     --color-text: hsl(245 100% 100%);
     --color-text-muted: hsl(246 67% 79%);
-    --color-highlight: hsl(254 57% 53%);
-    --color-border: hsl(58 100% 40%);
+    --color-highlight: hsl(260, 100%, 50%);
+    --color-border: hsl(48, 100%, 67%);
     --color-border-muted: hsl(268 100% 22%);
-    --color-primary: hsl(250 100% 87%);
-    --color-secondary: hsl(58 100% 23%);
-    --color-danger: hsl(7 100% 66%);
-    --color-warning: hsl(53 100% 21%);
-    --color-success: hsl(162 100% 22%);
-    --color-info: hsl(217 100% 70%);
+    --color-bg-highlight: hsl(240 10% 30%);
 }

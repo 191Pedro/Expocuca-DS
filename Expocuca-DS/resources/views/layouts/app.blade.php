@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class=" bg-bg-dark">
+    <body class="bg-bg-dark font-poppins text-white">
+        @include('components.header')
         
+        @yield('content', 'nenhum conteúdo renderizado')
     </body>
 </html>
