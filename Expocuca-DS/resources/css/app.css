@@ -9,12 +9,14 @@
 @theme {
     --font-poppins: "Poppins";
     --color-bg-dark: hsl(233, 36%, 9%);
-    --color-bg: hsl(260 100% 9%);
-    --color-bg-light: hsl(259 84% 13%);
+    --color-bg: hsl(235, 16%, 13%);
+    --color-bg-light: hsl(235, 10%, 22%);
     --color-text: hsl(245 100% 100%);
     --color-text-muted: hsl(246 67% 79%);
     --color-highlight: hsl(260, 100%, 50%);
+    --color-highlight-hover: hsl(260, 100%, 65%);
     --color-border: hsl(48, 100%, 67%);
     --color-border-muted: hsl(268 100% 22%);
     --color-bg-highlight: hsl(240 10% 30%);
+    --middle-position: 50%;
 }
