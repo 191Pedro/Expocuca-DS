@@ -20,10 +20,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        // Corrige o prefixo absoluto do Vite
         Vite::useHotFile(public_path('hot'))
             ->useBuildDirectory('build')
             ->useScriptTagAttributes(['type' => 'module'])
-            ->useAssetPrefix('/'); // 👈 força caminhos relativos!
+            ->useAssetPrefix('/');
     }
 }
